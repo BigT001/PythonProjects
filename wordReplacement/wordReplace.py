@@ -1,4 +1,4 @@
-def replace_word():
+def word_replace():
 
     My_str = "This is a program that replaces word with another"
 
@@ -7,4 +7,4 @@ def replace_word():
 
     print(My_str.replace(word_to_replace, new_word))
 
-replace_word()
+word_replace()
