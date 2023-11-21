@@ -1,1 +1,1 @@
-This files contains my python projecst
+This files contains my python projects
