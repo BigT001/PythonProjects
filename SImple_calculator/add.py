@@ -6,19 +6,19 @@
 
 def add(x, y):
     answer = x + y
-    print(f"{x} + {y} = {answer}")
+    print(f"{x} + {y} = {answer}" "\n")
 
 def sub(x, y):
     answer = x - y
-    print(f"{x} - {y} = {answer}")
+    print(f"{x} - {y} = {answer}" "\n")
 
 def multiply(x, y):
     answer = x * y
-    print(f"{x} * {y} = {answer}")
+    print(f"{x} * {y} = {answer}" "\n")
 
 def div(x, y):
     answer = x / y
-    print(f"{x} / {y} = {answer}")
+    print(f"{x} / {y} = {answer}" "\n")
 
 
 while True:
@@ -26,9 +26,9 @@ while True:
     print("B. Substration")
     print("C. Multiplication")
     print("D. Division")
-    print("E. (Exit")
+    print("E. Exit")
 
-    choice = input("What do you wnat to ddo?: ")
+    choice = input("perform operation: ")
 
     if choice.lower() == "a":
         print("Addition")
